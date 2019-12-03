@@ -4,5 +4,5 @@ __all__ = ['stats']
 
 #Cell
 def stats(x):
-    "Returns `mean` and `std` of a tensor"
+    "Returns `mean` and `std` of a tensor."
     return (x.mean(),x.std())

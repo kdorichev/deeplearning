@@ -6,6 +6,6 @@ index = {"stats": "00_core.ipynb"}
 
 modules = ["core.py"]
 
-git_url = "https://github.com/fastai/deeplearning/tree/master/"
+git_url = "https://github.com/kdorichev/deeplearning/tree/master/"
 
 def custom_doc_links(name): return None

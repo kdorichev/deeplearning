@@ -2,7 +2,8 @@
 
 __all__ = ["index", "modules", "custom_doc_links", "git_url"]
 
-index = {"stats": "00_core.ipynb"}
+index = {"stats": "00_core.ipynb",
+         "log_softmax": "00_core.ipynb"}
 
 modules = ["core.py"]
 

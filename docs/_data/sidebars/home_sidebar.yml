@@ -11,6 +11,9 @@ entries:
       url: /
     - output: web,pdf
       title: Title
+      url: /core
+    - output: web,pdf
+      title: MNIST
       url: /mnist
     output: web
     title: deeplearning

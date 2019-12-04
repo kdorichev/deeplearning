@@ -1,6 +1,7 @@
 {
   "deeplearning": {
     "Overview": "/",
-    "Title": "/mnist"
+    "Title": "/core",
+    "MNIST": "/mnist"
   }
 }

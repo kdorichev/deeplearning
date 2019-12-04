@@ -11,7 +11,7 @@ entries:
       url: /
     - output: web,pdf
       title: Title
-      url: /Untitled
+      url: /mnist
     output: web
     title: deeplearning
   output: web

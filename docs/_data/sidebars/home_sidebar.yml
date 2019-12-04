@@ -13,7 +13,7 @@ entries:
       title: Core functions
       url: /core
     - output: web,pdf
-      title: Title
+      title: Image classification with MNIST
       url: /mnist
     output: web
     title: deeplearning

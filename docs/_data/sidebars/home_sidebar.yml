@@ -10,10 +10,10 @@ entries:
       title: Overview
       url: /
     - output: web,pdf
-      title: Title
+      title: Core functions
       url: /core
     - output: web,pdf
-      title: MNIST
+      title: Image classification with MNIST
       url: /mnist
     output: web
     title: deeplearning

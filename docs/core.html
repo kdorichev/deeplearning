@@ -1,10 +1,10 @@
 ---
 
-title: Title
+title: Core functions
 keywords: fastai
 sidebar: home_sidebar
 
-summary: "summary"
+summary: "Some useful functions"
 ---
 <!--
 
@@ -48,12 +48,6 @@ summary: "summary"
 </div>
 
 </div>
-<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Core-functions">Core functions<a class="anchor-link" href="#Core-functions">&#182;</a></h1>
-</div>
-</div>
-</div>
 <div class="cell border-box-sizing code_cell rendered">
 
 </div>
@@ -91,26 +85,6 @@ summary: "summary"
 </div>
 </div>
 
-<div class="output_wrapper">
-<div class="output">
-
-<div class="output_area">
-
-
-
-<div class="output_text output_subarea output_execute_result">
-<pre>tensor([[-0.7444, -0.5304, -0.1145,  0.6246,  0.0372],
-        [ 0.2247,  0.9756, -1.1599,  0.1922, -1.0071],
-        [ 0.6112,  0.3034, -0.8551, -1.3674,  0.0815],
-        [-0.6475,  0.8792,  0.5653,  0.3802,  1.1776],
-        [-0.7622,  0.7702,  0.7275, -0.2205, -1.8443]])</pre>
-</div>
-
-</div>
-
-</div>
-</div>
-
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
@@ -121,22 +95,6 @@ summary: "summary"
 </pre></div>
 
     </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-<div class="output_area">
-
-
-
-<div class="output_text output_subarea output_execute_result">
-<pre>(tensor(0.0130), tensor(0.9993))</pre>
-</div>
-
-</div>
-
 </div>
 </div>
 
@@ -190,28 +148,6 @@ $$\hbox{softmax(x)}_{i} = \frac{e^{x_{i}}}{\sum_{0 \leq j \leq n-1} e^{x_{j}}}$$
 </pre></div>
 
     </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-<div class="output_area">
-
-
-
-<div class="output_text output_subarea output_execute_result">
-<pre>tensor([[-4.8892, -4.6751, -4.2592,  ..., -3.9869, -5.9575, -3.4586],
-        [-4.3245, -3.5736, -5.7091,  ..., -2.4028, -3.9787, -3.5831],
-        [-3.8113, -4.1191, -5.2776,  ..., -5.1819, -2.1017, -4.2893],
-        ...,
-        [-4.3438, -5.1789, -4.9209,  ..., -4.7017, -4.2018, -1.7397],
-        [-4.6690, -3.0647, -4.6966,  ..., -5.9671, -6.9491, -4.8425],
-        [-5.1538, -3.8755, -4.9438,  ..., -3.8971, -4.4482, -5.5689]])</pre>
-</div>
-
-</div>
-
 </div>
 </div>
 
@@ -278,24 +214,6 @@ $$\hbox{softmax(x)}_{i} = \frac{e^{x_{i}}}{\sum_{0 \leq j \leq n-1} e^{x_{j}}}$$
 </pre></div>
 
     </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-<div class="output_area">
-
-
-
-<div class="output_png output_subarea ">
-<img src="data:image/png;base64,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
-"
->
-</div>
-
-</div>
-
 </div>
 </div>
 

@@ -1,7 +1,7 @@
 {
   "deeplearning": {
     "Overview": "/",
-    "Title": "/core",
-    "MNIST": "/mnist"
+    "Core functions": "/core",
+    "Image classification with MNIST": "/mnist"
   }
 }

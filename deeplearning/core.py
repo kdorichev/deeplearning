@@ -13,12 +13,12 @@ def log_softmax(x):
     return x - x.exp().sum(-1).log().unsqueeze(-1)
 
 #Cell
-def plotdist(x):
-    "Plot distribution `x`"
+def plotdist(x,showsigmas=True):
+    "Plot distribution `x` with optional `showsigmas`"
     fig = plt.figure(figsize=(4,3))
     m,s = x.mean(), x.std()
     n,_,_ = plt.hist(x.reshape(-1),bins=100);
     l = [i*s for i in (-3,-2,-1,1,2,3)] # three sigmas
     l.append(m) # plus mean
-    plt.vlines(l, 0, n.max(), color='white', alpha=0.2)
+    if showsigmas: plt.vlines(l, 0, n.max(), color='white', alpha=0.2)
     ax = plt.title(f'Mean = {round(float(m),3)}; $\sigma$ = {round(float(s),3)}');

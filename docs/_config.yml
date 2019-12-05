@@ -1,7 +1,7 @@
 repository: kdorichev/deeplearning
 output: web
-topnav_title: deeplearning
-site_title: deeplearning
+topnav_title: Deep Learning
+site_title: Deep Learning
 company_name: Konstantin Dorichev
 description: My study of Deep Learning
 # Add Google analytics id if you have one and want to use it here
@@ -58,3 +58,6 @@ sidebars:
 - home_sidebar
 
 theme: jekyll-theme-dinky
+
+site:
+ use_math

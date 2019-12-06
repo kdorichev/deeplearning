@@ -15,6 +15,9 @@ entries:
     - output: web,pdf
       title: Image classification with MNIST
       url: /mnist
+    - output: web,pdf
+      title: Title
+      url: /MyMNIST_Pytorch
     output: web
     title: deeplearning
   output: web

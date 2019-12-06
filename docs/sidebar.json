@@ -2,6 +2,7 @@
   "deeplearning": {
     "Overview": "/",
     "Core functions": "/core",
-    "Image classification with MNIST": "/mnist"
+    "Image classification with MNIST": "/mnist",
+    "Title": "/MyMNIST_Pytorch"
   }
 }

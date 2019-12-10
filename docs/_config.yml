@@ -58,6 +58,3 @@ sidebars:
 - home_sidebar
 
 theme: jekyll-theme-dinky
-
-site:
- use_math

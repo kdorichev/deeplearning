@@ -16,6 +16,9 @@ entries:
       title: Image classification with MNIST
       url: /mnist
     - output: web,pdf
+      title: Image Classification - Imagenette
+      url: /Image_Classification_Imagenette
+    - output: web,pdf
       title: Title
       url: /MyMNIST_Pytorch
     output: web

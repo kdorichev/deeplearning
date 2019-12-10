@@ -3,6 +3,7 @@
     "Overview": "/",
     "Core functions": "/core",
     "Image classification with MNIST": "/mnist",
+    "Image Classification - Imagenette": "/Image_Classification_Imagenette",
     "Title": "/MyMNIST_Pytorch"
   }
 }

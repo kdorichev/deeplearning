@@ -19,8 +19,14 @@ entries:
       title: Image Classification - Imagenette
       url: /Image_Classification_Imagenette
     - output: web,pdf
+      title: Image Classification -- Imagewoof
+      url: /Image_Classification_Imagewoof
+    - output: web,pdf
       title: Title
       url: /MyMNIST_Pytorch
+    - output: web,pdf
+      title: Images Transfotmations
+      url: /Untitled
     output: web
     title: deeplearning
   output: web

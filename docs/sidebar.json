@@ -4,6 +4,8 @@
     "Core functions": "/core",
     "Image classification with MNIST": "/mnist",
     "Image Classification - Imagenette": "/Image_Classification_Imagenette",
-    "Title": "/MyMNIST_Pytorch"
+    "Image Classification -- Imagewoof": "/Image_Classification_Imagewoof",
+    "Title": "/MyMNIST_Pytorch",
+    "Images Transfotmations": "/Untitled"
   }
 }

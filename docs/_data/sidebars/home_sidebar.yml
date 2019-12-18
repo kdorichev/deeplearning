@@ -16,6 +16,15 @@ entries:
       title: Image classification with MNIST
       url: /mnist
     - output: web,pdf
+      title: Image Classification -- CIFAR-10
+      url: /Image_Classification_CIFAR_10
+    - output: web,pdf
+      title: Image Classification -- CIFAR-10 -- Resnet101
+      url: /Image_Classification_CIFAR_10_Resnet101
+    - output: web,pdf
+      title: Image Classification -- CIFAR-10 -- Resnet34
+      url: /Image_Classification_CIFAR_10_Resnet34
+    - output: web,pdf
       title: Image Classification - Imagenette
       url: /Image_Classification_Imagenette
     - output: web,pdf

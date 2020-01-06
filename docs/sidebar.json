@@ -3,12 +3,13 @@
     "Overview": "/",
     "Core functions": "/core",
     "Image classification with MNIST": "/mnist",
+    "Pandas related functions": "/pandas",
     "Image Classification -- CIFAR-10": "/Image_Classification_CIFAR_10",
     "Image Classification -- CIFAR-10 -- Resnet101": "/Image_Classification_CIFAR_10_Resnet101",
     "Image Classification -- CIFAR-10 -- Resnet34": "/Image_Classification_CIFAR_10_Resnet34",
     "Image Classification - Imagenette": "/Image_Classification_Imagenette",
     "Image Classification -- Imagewoof": "/Image_Classification_Imagewoof",
-    "Title": "/MyMNIST_Pytorch",
+    "Title": "/Untitled3",
     "Images Transfotmations": "/Untitled"
   }
 }

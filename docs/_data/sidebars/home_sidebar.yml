@@ -16,6 +16,9 @@ entries:
       title: Image classification with MNIST
       url: /mnist
     - output: web,pdf
+      title: Pandas related functions
+      url: /pandas
+    - output: web,pdf
       title: Image Classification -- CIFAR-10
       url: /Image_Classification_CIFAR_10
     - output: web,pdf
@@ -32,7 +35,7 @@ entries:
       url: /Image_Classification_Imagewoof
     - output: web,pdf
       title: Title
-      url: /MyMNIST_Pytorch
+      url: /Untitled3
     - output: web,pdf
       title: Images Transfotmations
       url: /Untitled

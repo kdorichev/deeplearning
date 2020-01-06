@@ -58,3 +58,5 @@ sidebars:
 - home_sidebar
 
 theme: jekyll-theme-dinky
+
+baseurl: /deeplearning/
